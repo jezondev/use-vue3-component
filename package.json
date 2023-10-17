@@ -1,13 +1,17 @@
 {
-  "name": "use-vue-component",
-  "version": "1.0.9",
-  "description": "在docusaurus中使用vue2组件",
+  "name": "use-vue3-component",
+  "version": "1.0.0",
+  "description": "docusaurus vue3",
   "main": "dist/uvc.esm.js",
   "scripts": {
     "build": "rollup --config"
   },
-  "keywords": ["docusaurus","docusaurus-plugin","vue"],
-  "author": "lsh",
+  "keywords": [
+    "docusaurus",
+    "docusaurus-plugin",
+    "vue"
+  ],
+  "author": "jezon",
   "license": "ISC",
   "devDependencies": {
     "react": "^17.0.2",
@@ -15,6 +19,6 @@
     "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "^3.3.4"
   }
 }
